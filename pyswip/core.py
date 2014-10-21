@@ -271,7 +271,7 @@ def _findSwiplDar():
     """
 
     # Help with MacOS is welcome!!
-    paths = ['.', './lib']
+    paths = ['.', './lib', '/usr/local/lib']
     names = ['libswipl.dylib', 'libpl.dylib']
 
     for name in names:

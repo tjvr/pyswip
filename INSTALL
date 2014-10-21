@@ -71,3 +71,13 @@ Installing on Win32
 	>>> prolog.assertz("father(michael,john)")
 
 
+Installing on OS X
+------------------
+
+Try this:
+
+$ brew install swipl
+$ cd /usr/local/lib
+$ ln -s ../Cellar/swi-prolog/6.6.6/libexec/lib/swipl-6.6.6/lib/x86_64-darwin13.4.0/libswipl.{dylib,a} .
+$ pip install git+https://github.com/blob8108/pyswip
+
